@@ -1,0 +1,28 @@
+# Secrets and local configuration
+**/.env
+**/.env.*
+!**/.env.example
+**/local.properties
+**/key.properties
+**/*.jks
+**/*.keystore
+**/*.pem
+**/*.p12
+**/*.pfx
+**/*.key
+
+# Build output and caches
+**/.dart_tool/
+**/.gradle/
+**/build/
+**/bin/
+**/__pycache__/
+*.py[cod]
+*.class
+
+# IDE and OS files
+**/.idea/
+**/.vscode/
+**/*.iml
+.DS_Store
+Thumbs.db
